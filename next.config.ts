@@ -1,6 +1,7 @@
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
+  port: 9080,
   /* config options here */
   typescript: {
     ignoreBuildErrors: true,
